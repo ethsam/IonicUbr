@@ -5,7 +5,7 @@ import { MapDirective } from '../../components/map/map';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
-  declarations: [MapDirective]
+  declarations: [MapDirective] //Error :/
 })
 export class HomePage {
 

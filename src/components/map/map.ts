@@ -25,7 +25,7 @@ export class MapDirective implements OnInit {
   createMap(location = new google.maps.LatLng(-21.1352849, 55.3872221)){
     let mapOptions = {
       center: location,
-      zoom: 11,
+      zoom: 15,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true
     }
